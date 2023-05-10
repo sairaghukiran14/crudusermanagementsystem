@@ -49,6 +49,7 @@ const App = () => {
             onChange={inputhandler}
             className="p-3 rounded m-1"
             placeholder="FullName"
+            required
           />
           <input
             type="email"
@@ -57,6 +58,7 @@ const App = () => {
             onChange={inputhandler}
             className="p-3 rounded m-1"
             placeholder="Email Address"
+            required
           />
           <button
             type="button"
